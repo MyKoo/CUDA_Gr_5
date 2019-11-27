@@ -44,7 +44,9 @@ int main(int Row, int Col)
 {
 	
 	MatrixMulKernel();
-
+	cudaMallocHost(void**); //lub
+	int matrices = int Row * int Col
+	float* h_A = (float*)malloc(matrices);
 
 
 	/*
